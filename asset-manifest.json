@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/nexcent-landing-page/static/css/main.31d6cfe0.css",
+    "main.js": "/nexcent-landing-page/static/js/main.218c8032.js",
+    "index.html": "/nexcent-landing-page/index.html",
+    "main.218c8032.js.map": "/nexcent-landing-page/static/js/main.218c8032.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.218c8032.js"
+  ]
+}
