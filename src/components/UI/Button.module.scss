@@ -1,0 +1,30 @@
+.button {
+  font: inherit;
+  border-radius: 6px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.primary-btn {
+  border: 1px solid var(--brand-primary);
+  background: var(--brand-primary);
+  color: white;
+
+  &:hover {
+    background: var(--dark-green);
+    border-color: var(--dark-green);
+  }
+}
+
+.secondary-btn {
+  border: none;
+  background: transparent;
+  color: var(--brand-primary);
+
+  &:hover {
+    color: white;
+    background: var(--dark-green);
+    border-color: var(--dark-green);
+  }
+}
