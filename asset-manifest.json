@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/nexcent-landing-page/static/css/main.31d6cfe0.css",
-    "main.js": "/nexcent-landing-page/static/js/main.218c8032.js",
+    "main.css": "/nexcent-landing-page/static/css/main.abfd5480.css",
+    "main.js": "/nexcent-landing-page/static/js/main.a01d7063.js",
+    "static/media/Hero Illustration.png": "/nexcent-landing-page/static/media/Hero Illustration.f7d7ab16d335bbb9d033.png",
+    "static/media/Illustration 1.png": "/nexcent-landing-page/static/media/Illustration 1.703877beafd995711dff.png",
     "index.html": "/nexcent-landing-page/index.html",
-    "main.218c8032.js.map": "/nexcent-landing-page/static/js/main.218c8032.js.map"
+    "main.abfd5480.css.map": "/nexcent-landing-page/static/css/main.abfd5480.css.map",
+    "main.a01d7063.js.map": "/nexcent-landing-page/static/js/main.a01d7063.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.218c8032.js"
+    "static/css/main.abfd5480.css",
+    "static/js/main.a01d7063.js"
   ]
 }
