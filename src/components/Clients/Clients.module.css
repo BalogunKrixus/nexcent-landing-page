@@ -1,7 +1,8 @@
 .clients_container {
   max-width: 1200px;
-  margin: 4rem auto;
   text-align: center;
+  padding: 4rem 0;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
@@ -9,7 +10,7 @@
 
 @media screen and (max-width: 960px) {
   .clients_container {
-    padding: 0 2rem;
+    padding: 4rem 2rem;
   }
 }
 
