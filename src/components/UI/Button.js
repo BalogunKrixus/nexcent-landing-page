@@ -9,6 +9,8 @@ const Button = (props) => {
         buttonClasses.push(styles['primary-btn']);
     } else if (props.secondary) {
         buttonClasses.push(styles['secondary-btn']);
+    } else if (props.primary_lg) {
+        buttonClasses.push(styles['primary-btn-large']);
     }
 
     return (

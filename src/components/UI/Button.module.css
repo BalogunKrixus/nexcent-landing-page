@@ -1,7 +1,6 @@
 .button {
   font: inherit;
   border-radius: 6px;
-  padding: 1rem 2rem;
   cursor: pointer;
   transition: background 0.3s, border-color 0.3s, color 0.3s;
 }
@@ -10,6 +9,7 @@
   border: 1px solid var(--brand-primary);
   background: var(--brand-primary);
   color: white;
+  padding: 1rem 2rem;
 }
 .primary-btn:hover {
   background: var(--dark-green);
@@ -20,9 +20,21 @@
   border: none;
   background: transparent;
   color: var(--brand-primary);
+  padding: 1rem 2rem;
 }
 .secondary-btn:hover {
   color: white;
+  background: var(--dark-green);
+  border-color: var(--dark-green);
+}
+
+.primary-btn-large {
+  border: 1px solid var(--brand-primary);
+  background: var(--brand-primary);
+  color: white;
+  padding: 1.4rem 3.2rem;
+}
+.primary-btn-large:hover {
   background: var(--dark-green);
   border-color: var(--dark-green);
 }/*# sourceMappingURL=Button.module.css.map */

@@ -1,7 +1,6 @@
 nav {
   padding: 2.2rem 2rem;
   background: var(--grey-color);
-  height: 74px;
   position: sticky;
 }
 
@@ -77,6 +76,8 @@ nav {
   }
 }
 
-.navMenuActive {
-  display: none;
+@media screen and (max-width: 960px) {
+  .navMenuActive {
+    display: none;
+  }
 }/*# sourceMappingURL=Navbar.module.css.map */

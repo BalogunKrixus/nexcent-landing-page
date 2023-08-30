@@ -3,6 +3,7 @@ import styles from './Navbar.module.css';
 import NexcentLogo from '../../assets/NexcentLogo.png';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Button from '../UI/Button';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -35,7 +36,7 @@ const Navbar = () => {
     return (
         <nav>
             <div className={styles.navbarContainer}>
-                <a to='/' className={styles.navLogo} onClick={closeMobileMenu}>
+                <a to='/' className={styles.navLogo}>
                     <img src={NexcentLogo} alt="Nexcent logo" />
                 </a>
 

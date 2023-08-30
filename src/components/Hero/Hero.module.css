@@ -1,0 +1,30 @@
+.left_col h2 span {
+  color: var(--brand-primary);
+}
+
+.left_col p {
+  margin: 1.6rem 0 3.2rem;
+}
+
+.container {
+  background: var(--grey-color);
+}
+
+.hero_section {
+  height: calc(100vh - 86px);
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 10.4rem;
+}
+
+@media screen and (max-width: 960px) {
+  .hero_section {
+    height: calc(100vh - 74px);
+    padding: 0 2rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5.4rem;
+  }
+}

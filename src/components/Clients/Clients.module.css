@@ -1,0 +1,25 @@
+.clients_container {
+  max-width: 1200px;
+  margin: 4rem auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+@media screen and (max-width: 960px) {
+  .clients_container {
+    padding: 0 2rem;
+  }
+}
+
+.clients_content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.clients_logo {
+  display: flex;
+  justify-content: space-between;
+}

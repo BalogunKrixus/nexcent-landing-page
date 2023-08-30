@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  gap: 5rem;
+  margin: 5.2rem auto;
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.right_col p {
+  padding: 1.6rem 0 3.2rem;
+}
