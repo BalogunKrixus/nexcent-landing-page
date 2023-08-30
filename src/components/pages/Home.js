@@ -8,6 +8,7 @@ import Services from '../Services/Services'
 const Home = () => {
     return (
         <>
+            <div>I am the header</div>
             <Navbar />
             <Hero />
             <Clients />
