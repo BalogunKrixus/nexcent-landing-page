@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/nexcent-landing-page/static/css/main.abfd5480.css",
-    "main.js": "/nexcent-landing-page/static/js/main.a01d7063.js",
+    "main.css": "/nexcent-landing-page/static/css/main.b76cb067.css",
+    "main.js": "/nexcent-landing-page/static/js/main.f8e2c092.js",
+    "static/media/Tesla logo image.png": "/nexcent-landing-page/static/media/Tesla logo image.85869b8d4eb243deface.png",
     "static/media/Hero Illustration.png": "/nexcent-landing-page/static/media/Hero Illustration.f7d7ab16d335bbb9d033.png",
     "static/media/Illustration 1.png": "/nexcent-landing-page/static/media/Illustration 1.703877beafd995711dff.png",
+    "static/media/Illustration 2.png": "/nexcent-landing-page/static/media/Illustration 2.b3661eb8d17bf13cf835.png",
     "index.html": "/nexcent-landing-page/index.html",
-    "main.abfd5480.css.map": "/nexcent-landing-page/static/css/main.abfd5480.css.map",
-    "main.a01d7063.js.map": "/nexcent-landing-page/static/js/main.a01d7063.js.map"
+    "main.b76cb067.css.map": "/nexcent-landing-page/static/css/main.b76cb067.css.map",
+    "main.f8e2c092.js.map": "/nexcent-landing-page/static/js/main.f8e2c092.js.map"
   },
   "entrypoints": [
-    "static/css/main.abfd5480.css",
-    "static/js/main.a01d7063.js"
+    "static/css/main.b76cb067.css",
+    "static/js/main.f8e2c092.js"
   ]
 }
