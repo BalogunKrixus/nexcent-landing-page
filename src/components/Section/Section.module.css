@@ -1,17 +1,28 @@
 .container {
   display: flex;
-  gap: 5rem;
+  /* gap: 5rem; */
   margin: 5.2rem auto;
   max-width: 1200px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 960px) {
   .container {
     flex-direction: column;
     padding: 0 2rem;
+    gap: 3.2rem;
+  }
+
+  .container .right_col {
+    width: 100%;
   }
 }
 
 .right_col p {
   padding: 1.6rem 0 3.2rem;
+}
+
+.right_col {
+  width: 50%;
 }

@@ -3,7 +3,7 @@ import styles from './Navbar.module.css';
 import NexcentLogo from '../../assets/NexcentLogo.png';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Button from '../UI/Button';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {

@@ -15,11 +15,6 @@ nav {
 .mobileIcon {
   display: none;
   font-size: 24px;
-
-  @media screen and (max-width: 960px) {
-    display: block;
-    cursor: pointer;
-  }
 }
 
 .navMenu {
@@ -30,8 +25,26 @@ nav {
   padding: 0;
   margin: 0;
   gap: 5rem;
+}
+.navMenu .navItem {
+  border-bottom: 2px solid transparent;
+  padding: 1rem 0;
+}
+.navMenu .navItem:hover {
+  border-bottom: 2px solid var(--dark-green);
+}
+.navMenu .navItemBtn {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
 
-  @media screen and (max-width: 960px) {
+@media screen and (max-width: 960px) {
+  .mobileIcon {
+    display: block;
+    cursor: pointer;
+  }
+  .navMenu {
     display: flex;
     gap: 5rem;
     color: white;
@@ -46,37 +59,16 @@ nav {
     background: var(--dark-color);
     padding-top: 5rem;
   }
-
-  .navItem {
-    border-bottom: 2px solid transparent;
-    padding: 1rem 0;
-
-    &:hover {
-      border-bottom: 2px solid var(--dark-green);
-    }
-
-    @media screen and (max-width: 960px) {
-      width: 100%;
-
-      &:hover {
-        border: none;
-      }
-    }
+  .navMenu .navItem {
+    width: 100%;
   }
-
-  .navItemBtn {
-    display: flex;
-    align-items: center;
-    gap: 1.4rem;
-
-    @media screen and (max-width: 960px) {
-      flex-direction: column;
-      gap: 5rem;
-    }
+  .navMenu .navItem:hover {
+    border: none;
   }
-}
-
-@media screen and (max-width: 960px) {
+  .navMenu .navItemBtn {
+    flex-direction: column;
+    gap: 5rem;
+  }
   .navMenuActive {
     display: none;
   }

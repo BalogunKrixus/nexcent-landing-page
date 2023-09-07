@@ -1,0 +1,60 @@
+.product_stats {
+  padding: 6.4rem 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.stats_container {
+  background-color: var(--grey-color);
+}
+
+h3 span {
+  color: var(--brand-primary);
+}
+
+.left_col p {
+  margin-top: 0.8rem;
+}
+
+.right_col {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.stat_card {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.stat_card:nth-last-child(-n + 2) {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 960px) {
+  .product_stats {
+    flex-direction: column;
+    padding: 3.2rem 2rem;
+    gap: 3.2rem;
+  }
+
+  .right_col {
+    width: 100%;
+  }
+
+  .stat_card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .stat_card:nth-last-child(-n + 2) {
+    margin-bottom: 30px;
+  }
+}

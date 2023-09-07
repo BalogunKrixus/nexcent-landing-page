@@ -33,8 +33,8 @@ const Services = () => {
                 <p>Who is Nextcent suitable for?</p>
             </div>
             <div className={styles.our_services}>
-                {servicesContent.map((service) => (
-                    <div className={styles.container}>
+                {servicesContent.map((service, index) => (
+                    <div className={styles.container} key={index}>
                         <img src={service.image} alt={service.altText} />
                         <h4>{service.heading}</h4>
                         <p>{service.text}</p>
